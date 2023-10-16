@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Value__c</fullName>
+    <description>The quotient of dividing the company&apos;s net asset value (the company&apos;s book value) by the number of issued shares outstanding.</description>
+    <externalId>false</externalId>
+    <label>Book Value</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

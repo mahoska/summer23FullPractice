@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bond</fullName>
+    <active>true</active>
+    <description>a debt security whose owner has the right to receive its face value in cash or property on a due date from the issuer (the issuer)</description>
+    <label>Bond</label>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interest</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>
